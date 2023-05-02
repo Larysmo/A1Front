@@ -1,0 +1,25 @@
+header{
+    flex-direction: row;
+    background-color: #f1ab07;
+    color: black;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.active{
+    font-size: 20px;
+    color: black;
+}
+.sair{
+    background-color: black;
+    color: white;
+}
