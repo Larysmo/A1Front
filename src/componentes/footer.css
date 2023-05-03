@@ -1,8 +1,13 @@
-footer{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #f1ab07;
-  color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+footer{
+    flex: 1;
+    background-color: #f1ab07;
+    font-family: 'PT Sans';
+    color: #07191F;
+
+    
+}
+li{
+    color: black;
+}
