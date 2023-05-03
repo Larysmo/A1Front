@@ -5,6 +5,7 @@ import Home from './pages/home'
 import Grade from './pages/grade'
 import Notas from './pages/notas'
 import Financeiro from './pages/financeiro'
+import Fale from './pages/fale'
 import Erro404 from './pages/Erro404'
 import Login from "./pages/login"
 import Sobre from "./pages/sobre"
@@ -34,6 +35,7 @@ export default function App(){
           <Route path="grade" element={<Grade/>} />
           <Route path="notas" element={<Notas/>} />
           <Route path="financeiro" element={<Financeiro/>} />
+          <Route path="fale" element={<Fale/>} />
           <Route path="sobre/:id" element={<Sobre/>} />  //parametro de rota
         </Route>
         </>

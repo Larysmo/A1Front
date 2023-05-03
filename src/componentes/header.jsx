@@ -15,11 +15,12 @@ export default function Header(props) {
       <div>
       <nav>
         <ul>
+          <img src={logo0} alt="logomarca" width={45}/> 
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/grade">Grade Horaria</NavLink></li>
           <li><NavLink to="/notas">Notas</NavLink></li>
-          <img src={logo0} alt="logomarca" width={50}/> 
           <li><NavLink to="/financeiro">Financeiro</NavLink></li>
+          <li><NavLink to="/fale">Fale Conosco</NavLink></li>
           <li><NavLink to={`/sobre/${props.usuarioID}`}>Sobre</NavLink></li>
           <li><button className="sair" onClick={handleClick}>Sair</button></li>
         </ul>

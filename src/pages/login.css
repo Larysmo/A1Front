@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fbfbe5;/* tem um fundo na tela difernte de branco */ 
+  background-color: #fffae7;/* tem um fundo na tela difernte de branco */ 
 }
 .logomarca{
- width: 50%; 
+ width: auto; 
 }
 input{
   margin-right: 20px;

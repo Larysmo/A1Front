@@ -17,22 +17,7 @@ export default function Home(){
                 <video src="src\componentes\img\videoplayback (1).webm" ></video>   
             </div>   
     
-            <div className="contato">
-                <form action="call">
-                    <h1>Fale Conosco</h1>                   
-                    <hr />
-                    <label htmlFor="name">Nome Completo
-                        <input type="text" required="" size={20} name=""/> </label>
-                    <label htmlFor="tel">Telefone
-                        <input type="text" required="" size={10} name=""/> </label>
-                    <label htmlFor="ES">Email     
-                        <input type="text" required="" size={20} name=""/> </label> 
-                    <label htmlFor="ES">Mensagem     
-                        <input type="text" required="" size={50} name=""/> </label> 
-                        <button>Enviar</button>                           
-                        <p></p>                 
-                </form> 
-            </div>  
+            
                     
 
 
