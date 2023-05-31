@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #fffae7;/* tem um fundo na tela difernte de branco */ 
+  height: 100vh; 
 }
 .logomarca{
  width: auto; 
